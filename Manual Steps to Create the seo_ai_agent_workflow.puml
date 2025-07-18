@@ -1,0 +1,76 @@
+@startuml
+actor Client as "Client/SEO Strategist"
+participant "Strategy Module"
+participant "Audit Module"
+participant "Research Module"
+participant "Content Module"
+participant "Outreach Module"
+participant "Analytics Module"
+participant "AI Optimization Module"
+
+Client -> "Strategy Module" : Define SEO goals
+"Strategy Module" --> Client : SEO Objectives Document
+
+Client -> "Strategy Module" : Map personas & keyword intent
+"Strategy Module" --> Client : Intent-based Keyword Map
+
+Client -> "Strategy Module" : Competitor & SERP research
+"Strategy Module" --> Client : Competitive Analysis Report
+
+"Strategy Module" -> "Strategy Module" : Plan AI Agent interaction
+"Strategy Module" --> Client : Integration Plan
+
+Client -> "Audit Module" : Crawl website for issues
+"Audit Module" --> Client : Technical SEO Report
+
+Client -> "Audit Module" : Check performance
+"Audit Module" --> Client : Performance Audit Report
+
+Client -> "Audit Module" : Indexation & Schema check
+"Audit Module" --> Client : Indexing & Markup Report
+
+Client -> "Research Module" : AI keyword clustering
+"Research Module" --> Client : Keyword Cluster Map
+
+Client -> "Research Module" : Identify keyword opportunities
+"Research Module" --> Client : Keyword Opportunity List
+
+Client -> "Research Module" : Map keywords to content
+"Research Module" --> Client : Content Mapping Sheet
+
+Client -> "Content Module" : Generate content briefs
+"Content Module" --> Client : SEO Content Briefs
+
+Client -> "Content Module" : AI content scoring & gap analysis
+"Content Module" --> Client : Content Gap Report
+
+Client -> "Content Module" : Optimize existing content
+"Content Module" --> Client : Updated Content Guidelines
+
+Client -> "Outreach Module" : Identify backlink opportunities
+"Outreach Module" --> Client : Outreach Target List
+
+Client -> "Outreach Module" : Manage outreach campaigns
+"Outreach Module" --> Client : Outreach Campaign Report
+
+Client -> "Outreach Module" : Track acquired links
+"Outreach Module" --> Client : Backlink Acquisition Report
+
+Client -> "Analytics Module" : Monitor keyword rankings
+"Analytics Module" --> Client : Ranking Report
+
+Client -> "Analytics Module" : Track organic traffic
+"Analytics Module" --> Client : Traffic Dashboard
+
+Client -> "Analytics Module" : Analyze goal completions
+"Analytics Module" --> Client : Conversion Report
+
+Client -> "AI Optimization Module" : Run A/B tests
+"AI Optimization Module" --> Client : Test Results Report
+
+Client -> "AI Optimization Module" : Implement winning changes
+"AI Optimization Module" --> Client : Updated Site Elements
+
+Client -> "AI Optimization Module" : Scale successful strategies
+"AI Optimization Module" --> Client : Scaling Strategy Blueprint
+@enduml
